@@ -7,7 +7,7 @@ public interface Animal {
     // Return true if animal eats vegetables
     boolean canEatVegetables();
 
-    // return true if animal can eat the animal passed as parametr
+    // return true if animal can eat the animal passed as parameter
     // can only eats animals that weight less
     boolean canEat(Animal a);
 }

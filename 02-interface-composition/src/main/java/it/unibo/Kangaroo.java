@@ -22,16 +22,6 @@ public class Kangaroo implements Animal {
     }
 
     public boolean canEat(Animal a) {
-        if (diet.getEatMeat() == true) {
-            if (a.averageWeight() < this.averageWeight) {
-                return true;
-            }
-            else {
-                return false;
-            }
-        }
-        else {
-            return false;
-        }
+        return diet.getEatMeat() && (a.averageWeight() < this.averageWeight);
     }
 }
