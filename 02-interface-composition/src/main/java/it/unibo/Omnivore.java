@@ -6,14 +6,14 @@ public class Omnivore implements Diet {
     private static final boolean MEAT = true;   
 
     public String getDescription() {
-        return "Bases on both, plants and meat.";
+        return "Based on both, plants and meat.";
     }
 
     public boolean getEatVegetables() {
-        return eatVegetables;
+        return VEGETABLES;
     }
 
     public boolean getEatMeat() {
-        return eatMeat;
+        return MEAT;
     }
 }
