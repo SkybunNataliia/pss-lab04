@@ -1,5 +1,9 @@
 package it.unibo;
 
+/**
+ * The SiameseCat class implements the Animal interface,
+ * describes the basic characteristics of an SiameseCat.
+ */
 public class SiameseCat implements Animal {
     // Default value of average weight
     private static final double WEIGHT = 4.5;

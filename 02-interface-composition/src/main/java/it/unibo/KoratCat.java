@@ -1,5 +1,9 @@
 package it.unibo;
 
+/**
+ * The KoratCat class implements the Animal interface,
+ * describes the basic characteristics of an KoratCat.
+ */
 public class KoratCat implements Animal {
     // Default value of average weight
     private static final double WEIGHT = 3;

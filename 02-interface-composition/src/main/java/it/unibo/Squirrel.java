@@ -1,5 +1,9 @@
 package it.unibo;
 
+/**
+ * The Squirrel class implements the Animal interface,
+ * describes the basic characteristics of an Squirrel.
+ */
 public class Squirrel implements Animal {
     // Default value of average weight
     private static final double WEIGHT = 0.45;

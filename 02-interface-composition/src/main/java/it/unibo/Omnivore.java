@@ -9,7 +9,7 @@ package it.unibo;
 public class Omnivore implements Diet {
 
     private static final boolean VEGETABLES = true;
-    private static final boolean MEAT = true;   
+    private static final boolean MEAT = true;  
 
     // returns true as omnivore consume vegetables.
     public boolean getEatVegetables() {
