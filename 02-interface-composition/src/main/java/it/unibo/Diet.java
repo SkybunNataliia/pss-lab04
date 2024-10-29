@@ -1,7 +1,7 @@
 package it.unibo;
 
 public interface Diet {
-    boolean eatVegetables();
-    boolean eatMeat();
+    boolean getEatVegetables();
+    boolean getEatMeat();
     String getDescription();
 }
