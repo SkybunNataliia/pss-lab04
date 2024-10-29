@@ -3,15 +3,14 @@ package it.unibo;
 public class Kangaroo implements Animal {
 
     private static final double WEIGHT = 29.88;
-    private static final boolean VEGETABLES = true;
 
+    private Herbivore diet;
     private final double averageWeight;
-    private final boolean eatVegetables;
 
 
     public Kangaroo() {
+        this.diet = new Herbivore();
         this.averageWeight = WEIGHT;
-        this.eatVegetables = VEGETABLES;
     }
 
     public double averageWeight() {
@@ -19,10 +18,10 @@ public class Kangaroo implements Animal {
     }
 
     public boolean canEatVegetables() {
-        return eatVegetables;
+        return diet.getEatVegetables();
     }
 
     public boolean canEat(Animal a) {
-        return false;
+        return diet.getEatMeat();
     }
 }
