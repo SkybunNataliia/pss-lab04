@@ -14,7 +14,7 @@ public class Kangaroo implements Animal {
     }
 
     // Constructor with value of average weight
-    public Kangaroo(double weight) {
+    public Kangaroo(final double weight) {
         this.diet = new Herbivore();
         this.averageWeight = weight;
     }
@@ -27,7 +27,7 @@ public class Kangaroo implements Animal {
         return diet.getEatVegetables();
     }
 
-    public boolean canEat(Animal a) {
+    public boolean canEat(final Animal a) {
         return diet.getEatMeat() && (a.averageWeight() < this.averageWeight);
     }
 }

@@ -14,7 +14,7 @@ public class KoratCat implements Animal {
     }
 
     // Constructor with value of average weight
-    public KoratCat(double weight) {
+    public KoratCat(final double weight) {
         this.diet = new Carnivore();
         this.averageWeight = weight;
     }
@@ -27,7 +27,7 @@ public class KoratCat implements Animal {
         return diet.getEatVegetables();
     }
 
-    public boolean canEat(Animal a) {
+    public boolean canEat(final Animal a) {
         return diet.getEatMeat() && (a.averageWeight() < this.averageWeight);
     }
 }

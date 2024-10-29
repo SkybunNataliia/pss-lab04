@@ -8,10 +8,12 @@ public class Test {
         Animal koratCat = new KoratCat();
 
         System.out.println("Kangaroo weight more than cats: " + (
-            kangaroo.averageWeight() > siameseCat.averageWeight() &&
+            kangaroo.averageWeight() > siameseCat.averageWeight()
+            &&
             kangaroo.averageWeight() > koratCat.averageWeight()
         ));
-        System.out.println("Korat cat weight more than squirrel: " +
+        System.out.println("Korat cat weight more than squirrel: "
+            +
             (koratCat.averageWeight() > squirrel.averageWeight())
         );
 
