@@ -4,7 +4,7 @@ public class Kangaroo implements Animal {
 
     private static final double WEIGHT = 29.88;
 
-    private Herbivore diet;
+    private Diet diet;
     private final double averageWeight;
 
 

@@ -3,7 +3,7 @@ package it.unibo;
 public class SiameseCat implements Animal {
     private static final double WEIGHT = 4.5;
 
-    private Carnivore diet;
+    private Diet diet;
     private final double averageWeight;
 
 

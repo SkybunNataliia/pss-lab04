@@ -3,7 +3,7 @@ package it.unibo;
 public class KoratCat implements Animal {
     private static final double WEIGHT = 3;
 
-    private Carnivore diet;
+    private Diet diet;
     private final double averageWeight;
 
 

@@ -3,7 +3,7 @@ package it.unibo;
 public class Squirrel implements Animal {
     private static final double WEIGHT = 0.45;
 
-    private Herbivore diet;
+    private Diet diet;
     private final double averageWeight;
 
 
