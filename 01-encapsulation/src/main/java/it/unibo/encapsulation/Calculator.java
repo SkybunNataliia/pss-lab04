@@ -10,11 +10,11 @@ public class Calculator {
         this.lastResult = 0;
     }
 
-    public double getLastResult () {
+    public double getLastResult() {
         return lastResult;
     }
 
-    public int getOperationsPerformed () {
+    public int getOperationsPerformed() {
         return operationsPerformed;
     }
 
