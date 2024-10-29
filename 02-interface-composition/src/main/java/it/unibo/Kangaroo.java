@@ -23,11 +23,6 @@ public class Kangaroo implements Animal {
     }
 
     public boolean canEat(Animal a) {
-        if (a.averageWeight() < this.averageWeight) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return false;
     }
 }
