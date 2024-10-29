@@ -1,5 +1,10 @@
 package it.unibo;
 
+/**
+ * The Animal interface describes the basic characteristics of an animal, 
+ * such as average weight, the ability to eat vegetables, and whether it 
+ * can feed on other animals.
+ */
 public interface Animal {
     // return average weight of an animal in Kg
     double averageWeight();
