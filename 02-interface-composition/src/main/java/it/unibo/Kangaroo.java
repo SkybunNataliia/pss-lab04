@@ -1,16 +1,22 @@
 package it.unibo;
 
 public class Kangaroo implements Animal {
-
+    // Default value of average weight
     private static final double WEIGHT = 29.88;
 
     private Diet diet;
     private final double averageWeight;
 
-
+    //Constructor with default values
     public Kangaroo() {
         this.diet = new Herbivore();
         this.averageWeight = WEIGHT;
+    }
+
+    // Constructor with value of average weight
+    public Kangaroo(double weight) {
+        this.diet = new Herbivore();
+        this.averageWeight = weight;
     }
 
     public double averageWeight() {

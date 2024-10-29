@@ -1,15 +1,22 @@
 package it.unibo;
 
 public class Squirrel implements Animal {
+    // Default value of average weight
     private static final double WEIGHT = 0.45;
 
     private Diet diet;
     private final double averageWeight;
 
-
+    //Constructor with default values
     public Squirrel() {
         this.diet = new Herbivore();
         this.averageWeight = WEIGHT;
+    }
+
+    // Constructor with value of average weight
+    public Squirrel(double weight) {
+        this.diet = new Herbivore();
+        this.averageWeight = weight;
     }
 
     public double averageWeight() {
