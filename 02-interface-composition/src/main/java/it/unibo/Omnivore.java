@@ -3,10 +3,7 @@ package it.unibo;
 public class Omnivore implements Diet {
 
     private static final boolean VEGETABLES = true;
-    private static final boolean MEAT = true;
-
-    private final boolean eatVegetables;
-    private final boolean eatMeat;
+    private static final boolean MEAT = true;   
 
     public String getDescription() {
         return "Bases on both, plants and meat.";

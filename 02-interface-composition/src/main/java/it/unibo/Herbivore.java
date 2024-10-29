@@ -5,9 +5,6 @@ public class Herbivore implements Diet {
     private static final boolean VEGETABLES = true;
     private static final boolean MEAT = false;
 
-    private final boolean eatVegetables;
-    private final boolean eatMeat;
-
     public String getDescription() {
         return "Bases on plants, including leaves, fruits, flowers, seeds, and roots.";
     }
