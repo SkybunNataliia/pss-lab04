@@ -9,5 +9,5 @@ repositories {
 }
 
 application {
-    mainClass.set("it.unibo.encapsulation.Test")
+    mainClass.set("it.unibo.Test")
 }
