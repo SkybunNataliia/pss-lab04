@@ -8,11 +8,6 @@ public class Omnivore implements Diet {
     private final boolean eatVegetables;
     private final boolean eatMeat;
 
-    public Omnivore() {
-        this.eatVegetables = VEGETABLES;
-        this.eatMeat = MEAT;
-    }
-
     public String getDescription() {
         return "Bases on both, plants and meat.";
     }

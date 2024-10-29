@@ -8,11 +8,6 @@ public class Herbivore implements Diet {
     private final boolean eatVegetables;
     private final boolean eatMeat;
 
-    public Herbivore() {
-        this.eatVegetables = VEGETABLES;
-        this.eatMeat = MEAT;
-    }
-
     public String getDescription() {
         return "Bases on plants, including leaves, fruits, flowers, seeds, and roots.";
     }

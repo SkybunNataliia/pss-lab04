@@ -8,11 +8,6 @@ public class Carnivore implements Diet {
     private final boolean eatVegetables;
     private final boolean eatMeat;
 
-    public Carnivore() {
-        this.eatVegetables = VEGETABLES;
-        this.eatMeat = MEAT;
-    }
-
     public String getDescription() {
         return "Bases on meat.";
     }
