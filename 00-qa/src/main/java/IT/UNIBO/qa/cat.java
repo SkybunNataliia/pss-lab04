@@ -1,4 +1,4 @@
-package IT.UNIBO.qa;
+package it.unibo.qa;
 
 /**
  * The class Cat describes a cat.

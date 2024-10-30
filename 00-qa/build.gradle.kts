@@ -9,5 +9,5 @@ repositories {
 }
 
 application {
-    mainClass.set("IT.UNIBO.qa.Cat")
+    mainClass.set("it.unibo.qa.Cat")
 }
